@@ -1,63 +1,58 @@
 # Wild-Living
 A mod to bring a little more life and variety to the wilds of Cataclysm: Dark Days Ahead.
 
-Intended for 'InnaWoods' playthroughs, this mod adds a lot of content centered around living in the woods and swamps without access to modern technology. Where possible, historical methods are provided for various things that currently require modern tools.
+Intended for 'InnaWoods' playthroughs, this mod adds a content centered around living in the woods and swamps without access to modern technology. Where possible, historical methods are provided for various things that currently require modern tools, some concessions are made to gameplay balance.
 
 ## Features
 
 Overview:
-- Expanded Clay usages and glazing
-- Passive collection of time consuming materials
-- Expanded foraging
-- New uses for trees (Saps, Barks, Leaves)
 - Low-tech tools that don't require a full smithing setup
-- More things to ferment and pickle
+- Fur clothing
+- More food preservation options
 
-## Terrain/Resources
+## Tools
 
-### Bog Iron (TODO)
-Provides a source of iron/steel for wilderness run, prospect salt water swamp tiles for a chance to find a small amount of bog iron. Smelt bog iron into iron ingots for direct use, combine with charcoal to create low quality but usable steel.
+### Bone Pickaxe
+A low quality pickaxe, good for breaking up those larger boulders in the fields for rocks.
 
-### Iron Ingot (TODO)
-The result of smelting bog iron to a usable state, iron ingots are used directly by some recipes and can be converted into scrap iron.
+### Flint Hand Drill
+A simple bow drill, except instead of making fires, the rod is fitted with a knapped stone blade to drill into wood, useful to get maple sap before you have a full forge setup.
 
-### Steel Ingot (TODO)
-The result of a little metallurgy know-how, some charcoal and iron, steel. The steel isn't the greatest quality but can be used directly in some recipes and convert into steel lumps.
+## Clothing
 
-### Pine Sap (TODO)
-Can be harvested with a tree spile from Pine trees, provides an early alternative to bone glues for simple adhesive tasks like arrow head and fletching attachment.
+### Fur Backpack
+A fairly sizable backpack (20L) that includes a tool loop for an stone axe or similar, albeit with a higher encumberance.
 
-### Birch Sap (TODO)
-Similar to Maple Sap, birch sap can be harvested at the start of spring and drank directly as a sweetened clean water, processed into birch syrup or fermented into Birch Beer
+### Fur Pelt Tanning
+For the survivor down on their luck for finding a source of salt, fur pelts can be tanned with eggs, a variation on brain tanning. Get yourself warm and toasty with fur clothing.
 
-### Holly Leaves (TODO)
-Found occasionally while foraging, these stiff leaves from a holly bush make a passable early game fletching material.
+## Food Preservation
 
-### Wicker (TODO)
-Willow Trees can also be harvested in summer for wicker, after preparation and drying, wicker can be used to create rattan items and furniture.
+### Digestive Tracts
+When butchering an animal, you remove the entire digestive tract and seemingly discard everything but the stomach, this adds the intestines back in and adds two new options for preservation
+
+- Salted & Dried Rennet
+- Salted & Dried Meat Casings
+
+Butcher a creature for it's digestive tract, then use the new 'Cleaned Intestines' recipe under Other -> Materials to use boiled water to clean out the digestive tract, in return you get Cleaned Intestines and a Cleaned Stomach. 
+The intestines can be further salted and dried over a fire to produce Meat Casings, which are a long lasting resource for making sausages. The stomach itself, now cleaned, can be used for anything a regular stomach would be a component in, or it can be processed further with salt, heat and time into Rennet, which can be kept aside later for making curdled milk.
+
+All the relevant stomach using recipes have been changed to accept the cleaned versions, or rennet, or meat casings, where appropriate.
+
+Both Rennet and Meat Casings are essentially dried out and salted for maximum storage and will last about 2 years in ideal conditions.
+Recipe variants exist for Large Digestive tracts, currently there isn't any additional processing for human stomachs.
+
+## Early Game Help
+
+For the survivor starting on a Naked And Afraid or Shower Victim wilderness runs, the Birch Jug and Birch Funnel might save you from a quick death by dehydration. A little bit of cordage and a few sheets of birchbark from a nearby birch tree and you'll be drinking rainwater in no time, though it's recommend to still boil it first.
 
 ## Constructables
 
 ### Wooden Work Mat
 When butchering, you really want a flat surface to work on, this simple wooden workmat is a rolled up collection of long sticks bound together with cordage, create a flat draining surface you can wipe clean after use.
 
-## Wicker (TODO)
-With the addition of Willow Wicker, new furniture items are available using a combination of wicker and wood.
+### Makeshift Fence
+A simple fence made from 2x4's and sticks, more a suggestion of a barrier, but will keep small animals contained, you hope.
 
-### Wicker/Wooden Furniture
-
-#### Wicker Fence
-A woven wicker fence, won't stop a determined zombie (or moose) but provides a barrier for small animals and marking out of areas.
-
-### Wicker Items
-
-#### Wicker Basket
-A lovely woven asket to store a few litres worth of storage in when wandering the wilds.
-
-### Tools
-
-#### Flint Drill (TODO)
-A very simple tree tapping drill that uses a struck peice of flint to create a small auger blade on a crank. Hand powered and quite fragile. Useful for tapping maple and pine trees for sap or pitch.
-
-### More Clay Items (TODO)
-Additional clay containers and items to give clay a little more use in the world.
+### Plantable Fruit + Coffee Trees
+The fruit trees can have cuttings taken from them, the cutting planted up in a clay planting pot for two weeks then finally replanted as a fruit tree in a place of your choosing, harvest the year after, or take more cuttings to increase your orchard size.
