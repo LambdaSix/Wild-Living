@@ -18,6 +18,9 @@ A low quality pickaxe, good for breaking up those larger boulders in the fields 
 ### Flint Hand Drill
 A simple bow drill, except instead of making fires, the rod is fitted with a knapped stone blade to drill into wood, useful to get maple sap before you have a full forge setup.
 
+### Wooden Fish Trap
+A fish trap based on the same principle as the plastic fish trap, but made from cordage and sticks. Still needs fish bait.
+
 ## Clothing
 
 ### Fur Backpack
