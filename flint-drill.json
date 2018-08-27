@@ -1,0 +1,35 @@
+[
+	{
+	  "id": "flint_hand_drill",
+	  "type": "TOOL",
+	  "name": "flint hand drill",
+	  "description": "A primitive bulky manual drill with a flint flake for a drill bit.  It is slow and it will exhaust you quickly.",
+	  "weight": 1500,
+	  "volume": 2,
+	  "price": 500,
+	  "to_hit": -1,
+	  "bashing": 3,
+	  "cutting": 1,
+	  "material": [ "wood", "stone" ],
+	  "symbol": ";",
+	  "color": "light_gray",
+	  "qualities": [ [ "DRILL", 1 ] ]
+	},
+	{
+    "type": "recipe",
+    "result": "flint_hand_drill",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "survival", 4 ],
+    "time": 60000,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "stick", 1 ], [ "2x4", 1 ] ],
+      [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ],
+      [ [ "cordage_short", 1, "LIST" ], [ "filament", 20, "LIST" ] ]
+    ]
+  }
+]
