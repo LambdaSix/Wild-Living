@@ -1,0 +1,44 @@
+[
+{
+ 
+    "type" : "furniture",
+    "id" : "f_makeshiftfence",
+    "name": "makeshift fence",
+    "symbol": "=",
+    "bgcolor": "h_brown",
+    "move_cost_mod": 2,
+    "required_str": -1,
+    "flags": ["TRANSPARENT", "CONTAINER",  "FLAMMABLE_ASH", "NOITEM", "THIN_OBSTACLE", "REDUCE_SCENT", "MOUNTABLE", "SHORT"],
+    "deconstruct": {
+      "items": [
+        { "item": "2x4", "amount": 8, "minamount": 8 }
+      ]
+    },
+    "bash": {
+        "str_min": 4, "str_max": 20,
+        "sound": "crack.",
+        "sound_fail": "wham.",
+        "items": [
+            { "item": "2x4", "amount": 6, "minamount": 2}
+        ]
+    }
+},{
+    "type" : "construction",
+    "description" : "Build Makeshift Fence",
+    "category" : "FURN",
+    "difficulty" : 2,
+    "time" : 10,
+    "qualities": [
+        [ { "id": "DIG", "level": 2 } ],
+        [ { "id": "HAMMER", "level": 2 } ],
+        [ { "id": "SAW_W", "level": 1 } ],
+        [ { "id": "AXE", "level": 1 } ]
+        ],
+    "components" : [
+        [ [ "2x4", 8 ], [ "stick", 8 ] ]
+        ],
+    "pre_flags" : "DIGGABLE",
+    "post_terrain" : "f_makeshiftfence"
+ 
+}
+]
