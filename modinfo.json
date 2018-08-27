@@ -5,6 +5,6 @@
     "name": "Wild Living",
     "description": "Bring a little more life and variety to the wilds",
     "category": "rebalance",
-    "dependencies": [ "dda", "More_Survival_Tools" ]
+    "dependencies": [ "dda" ]
   }
 ]
