@@ -4,7 +4,6 @@
     "type" : "furniture",
     "id" : "f_makeshiftfence",
     "name": "makeshift fence",
-    "symbol": "=",    
     "looks_like": "t_fence",
     "move_cost_mod": 2,
     "required_str": -1,
@@ -23,7 +22,6 @@
       "AUTO_WALL_SYMBOL"
     ],
     "connects_to": "WOODFENCE",
-    "flags": ["TRANSPARENT", "CONTAINER",  "FLAMMABLE_ASH", "NOITEM", "THIN_OBSTACLE", "REDUCE_SCENT", "MOUNTABLE", "SHORT"],
     "deconstruct": {
       "items": [
         { "item": "2x4", "amount": 8, "minamount": 8 }
