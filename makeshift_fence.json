@@ -4,10 +4,25 @@
     "type" : "furniture",
     "id" : "f_makeshiftfence",
     "name": "makeshift fence",
-    "symbol": "=",
-    "bgcolor": "h_brown",
+    "symbol": "=",    
+    "looks_like": "t_fence",
     "move_cost_mod": 2,
     "required_str": -1,
+    "symbol": "LINE_OXOX",
+    "color": "brown",
+    "move_cost": 3,
+    "flags": [
+      "TRANSPARENT",
+      "DIGGABLE",
+      "FLAMMABLE_ASH",
+      "NOITEM",
+      "THIN_OBSTACLE",
+      "REDUCE_SCENT",
+      "MOUNTABLE",
+      "SHORT",
+      "AUTO_WALL_SYMBOL"
+    ],
+    "connects_to": "WOODFENCE",
     "flags": ["TRANSPARENT", "CONTAINER",  "FLAMMABLE_ASH", "NOITEM", "THIN_OBSTACLE", "REDUCE_SCENT", "MOUNTABLE", "SHORT"],
     "deconstruct": {
       "items": [
@@ -39,6 +54,5 @@
         ],
     "pre_flags" : "DIGGABLE",
     "post_terrain" : "f_makeshiftfence"
- 
 }
 ]
