@@ -1,0 +1,67 @@
+[
+	{
+		"type": "terrain",
+		"override": true,
+		"id": "t_tree_willow",
+		"name": "willow tree",
+		"symbol": "4",
+		"color": [ "light_green", "light_green", "light_green", "brown" ],
+		"//": "barren in winter, harvestable all year round",
+		"move_cost": 0,
+		"flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
+		"examine_action": "harvest_ter",
+		"transforms_into": "t_tree_willow_harvested",
+		"harvest_by_season": [
+			{ 
+				"seasons": [ "spring", "summer", "autumn", "winter" ], 
+				"entries": [ 
+					{ "drop": "willowbark", "base_num": [ 8, 12 ] },
+					{ "drop": "willow_reeds", "base_num": [ 10, 10] }
+				] 
+			}
+		],
+		"bash": {
+			"str_min": 80,
+			"str_max": 180,
+			"sound": "crunch!",
+			"sound_fail": "whack!",
+			"ter_set": "t_dirt",
+			"items": [ { "item": "stick_long", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
+		}
+	},
+	{
+		"type": "COMESTIBLE",
+		"id": "willow_reeds",
+		"name": "willow reed",
+		"name_plural": "willow reeds",
+		"description": "A thin six foot willow stave. Useful for weaving into basketry.",
+		"material": "wood",
+		"flags": [ "TRADER_AVOID", "FIREWOOD" ],
+		"weight": 400,
+		"volume": 12
+	},
+	{
+		"type": "COMESTIBLE",
+		"id": "willow_reeds_bundle",
+		"name": "willow reed bundle",
+		"name_plural": "willow reed bundles",
+		"description": "A tied bundle of willow reeds, easier to transport",
+		"material": "wood",
+		"flags": [ "TRADE_AVOID", "FIREWOOD" ],
+		"weight": 4000,
+		"volume": 14
+	},
+	{
+		"type": "recipe",
+		"result": "willow_reeds_bundle",
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "survival",
+		"difficulty": 1,
+		"time": 1000,
+		"autolearn": true,
+		"using": [ [ "filament", 8 ] ],
+		"components": [ [ [ "willow_reeds", 10 ] ] ],
+		"flags": [ "BLIND_HARD" ]
+	}
+]
