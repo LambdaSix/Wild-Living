@@ -63,7 +63,7 @@ For the survivor starting on a Naked And Afraid or Shower Victim wilderness runs
 
 ## More Cordage
 
-You can never have enough ways to tie things together in the wilds, and now you can process the fibrous inner layers of willow bark for cordage ropes.
+You can never have enough ways to tie things together in the wilds, and now you can process the fibrous inner layers of willow bark for cordage ropes, harvest willow reeds from willow trees then strip the bark to get the willow bark.
 
 ## Constructables
 
