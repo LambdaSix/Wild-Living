@@ -32,10 +32,16 @@ A fairly sizable backpack (20L) that includes a tool loop for an stone axe or si
 ### Fur Pelt Tanning
 For the survivor down on their luck for finding a source of salt, fur pelts can be tanned with eggs, a variation on brain tanning. Get yourself warm and toasty with fur clothing.
 
-## Food Preservation
+## Food & Food Preservation
 
 ### Tea Bags
 Dry out tea components and store them in tea bags, a convenient way to put aside various herbal rememdys for long term storage, steep in hot water and enjoy. Also a new tea, dandelion root.
+
+### Material processing
+- Process cattail rhizomes with a clay or rock Quern
+
+### Harvestable Acorns
+Harvest acorrns from oak trees in autumn, boil the acorns to blanch them then grind up with a food processor, clay/rock quern or a mortar and pestle to make corn meal.
 
 ### Digestive Tracts
 When butchering an animal, you remove the entire digestive tract and seemingly discard everything but the stomach, this adds the intestines back in and adds two new options for preservation
