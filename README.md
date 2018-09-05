@@ -55,6 +55,10 @@ Recipe variants exist for Large Digestive tracts, currently there isn't any addi
 
 For the survivor starting on a Naked And Afraid or Shower Victim wilderness runs, the Birch Jug and Birch Funnel might save you from a quick death by dehydration. A little bit of cordage and a few sheets of birchbark from a nearby birch tree and you'll be drinking rainwater in no time, though it's recommend to still boil it first.
 
+## More Cordage
+
+You can never have enough ways to tie things together in the wilds, and now you can process the fibrous inner layers of willow bark for cordage ropes.
+
 ## Constructables
 
 ### Wooden Work Mat
