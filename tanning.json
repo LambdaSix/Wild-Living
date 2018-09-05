@@ -2,13 +2,13 @@
   {
     "type": "recipe",
     "result": "tanning_pelt",
-    "override": true,
+    "id": "brain_tanning",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
     "skills_required": [ "cooking", 2 ],
     "difficulty": 3,
-    "time": 48000,
+    "time": 56000,
     "batch_time_factors": [ 40, 10 ],
     "autolearn": true,
     "qualities": [
@@ -20,8 +20,7 @@
     "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
     "components": [
       [ [ "water_clean", 2 ], [ "water", 2 ] ],
-      [ [ "tanbark", 4 ], [ "acorns", 6 ], [ "hops", 6 ], [ "pine_bough", 12 ] ],
-      [ [ "eggs_bird", 1, "LIST" ], [ "salt_water", 2 ], [ "saline", 10 ], [ "salt", 10 ] ],
+      [ [ "eggs_bird", 8, "LIST" ] ],
       [ [ "cured_pelt", 1 ] ]
     ]
   }
