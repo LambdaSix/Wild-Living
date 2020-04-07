@@ -381,7 +381,7 @@
     "components": [
       [ [ "water", 2 ], [ "water_clean", 2 ] ],
       [ [ "stomach_processed", 2 ], [ "large_stomach_processed", 1 ] ],
-      [ [ "offal", 2 ] ],
+      [ [ "offal", 1 ], [ "liver", 2 ], [ "lung", 2 ], [ "kidney", 2 ] ],
       [ [ "oatmeal", 2 ], [ "buckwheat", 2 ] ],
       [ [ "fat", 2 ], [ "tallow", 2 ], [ "lard", 2 ] ]
     ]
@@ -396,14 +396,15 @@
 	  "difficulty": 4,
 	  "time": 10000,
 	  "autolearn": true,
+    "charges": 6,
 	  "batch_time_factors":[50, 3],
 	  "qualities" : [
 	    {"id":"CUT","level":1},
 	    {"id":"COOK","level":1}
 	  ],
 	  "components": [
-	    [ [ "meat", 3] ],
-	    [ [ "fat", 3 ], [ "tallow", 3 ], [ "lard", 3 ] ],
+      [ [ "meat_red", 2, "LIST" ], [ "can_chicken", 2 ] ],
+      [ [ "edible_fat", 1, "LIST" ], [ "edible_tallow_lard", 2, "LIST" ] ],
 	    [ [ "meat_casing", 6 ] ],
 	    [
 	      [ "salt", 10 ],
@@ -425,6 +426,7 @@
     "skill_used": "cooking",
     "difficulty": 4,
     "time": 75000,
+    "charges": 6,
     "autolearn": true,
     "components": [
       [ [ "meat", 3 ], [ "rehydrated_meat", 6 ], [ "meat_canned", 6 ], [ "can_chicken", 6 ] ],
@@ -451,11 +453,12 @@
     "difficulty": 4,
     "time": 70000,
     "autolearn": true,
+    "charges": 6,
     "batch_time_factors": [83, 3],
     "qualities" : [ {"id":"CUT","level":1}, {"id":"COOK","level":1}],
     "tools" : [ [ [ "char_smoker", 10 ] ] ],
     "components": [ 
-    	[ [ "offal", 4 ] ], 
+    	[ [ "offal", 4 ], [ "meat_nofish", 2, "LIST" ], [ "liver", 2 ], [ "lung", 2 ], [ "kidney", 2 ], [ "brain", 10 ] ],
     	[ [ "meat_casing", 6 ] ], 
     	[ 
     		[ "salt_water", 4 ], 
@@ -478,10 +481,11 @@
     "difficulty": 4,
     "time": 10000,
     "autolearn": true,
+    "charges": 6,
     "batch_time_factors": [50, 3],
     "qualities" : [ {"id":"CUT","level":1}, {"id":"COOK","level":1}],
     "components": [ 
-    	[ [ "offal", 4 ] ],
+    	[ [ "offal", 4 ], [ "meat_nofish", 2, "LIST" ], [ "liver", 2 ], [ "lung", 2 ], [ "kidney", 2 ], [ "brain", 10 ] ],
     	[ [ "meat_casing", 6 ] ], 
     	[ 
     		[ "salt_water", 4 ],
