@@ -4,8 +4,9 @@
    "type" : "terrain",
    "id" : "t_tree_apple_cut",
    "name": "cut apple tree",
+   "description": "An apple tree that has had a sapling cut from it",
    "symbol": "7",
-   "color": "ltgreen",
+   "color": "green",
    "move_cost": 0,
    "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED"],
    "harvest_season": "AUTUMN",
@@ -26,6 +27,7 @@
    }
 },{
    "type" : "construction",
+   "id": "c_plant_apple_tree",
    "description" : "Plant Apple Tree",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -40,6 +42,7 @@
    "post_terrain" : "t_tree_apple_harvested"
 },{
    "type" : "construction",
+   "id": "c_take_apple_cutting",
    "description" : "Take Apple Tree Cutting",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -66,7 +69,7 @@
    "description" : "A large cutting from an apple tree.  It dies quickly, so hurry and pot it!",
    "material" : "veggy",
    "volume" : 6,
-   "weight" : 2721.5,
+   "weight" : 2721,
    "bashing" : 0,
    "cutting" : 0,
    "to_hit" : 0,
@@ -115,20 +118,14 @@
    "cutting" : 0,
    "to_hit" : 0,
    "phase": "solid",
-   "max_charges": 1,
-   "initial_charges": 1,
-   "charges_per_use": 1,
-   "turns_per_charge": 0,
-   "ammo": "NULL",
    "use_action": {
      "type": "delayed_transform",
-     "transform_age": 201600, "//": "2 weeks",
+     "transform_age": 1209600, "//": "2 weeks",
      "not_ready_msg": "The plant isn't done growing yet.",
      "msg": "You carefully take the tree out of the pot.",
      "moves": 50,
      "container": "clay_plant_pot",
-     "target": "apple_sapling",
-     "target_charges": 1
+     "target": "apple_sapling"
    }
 },{
   "type" : "recipe",
@@ -147,9 +144,10 @@
 },{
    "type" : "terrain",
    "id" : "t_tree_pear_cut",
+   "description": "A pear tree that has had a sapling cut from it",
    "name": "cut pear tree",
    "symbol": "7",
-   "color": "ltgreen",
+   "color": "green",
    "move_cost": 0,
    "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED"],
    "harvest_season": "AUTUMN",
@@ -167,6 +165,7 @@
    }
 },{
    "type" : "construction",
+   "id": "c_plant_pear_tree",
    "description" : "Plant Pear Tree",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -181,6 +180,7 @@
    "post_terrain" : "t_tree_pear_harvested"
 },{
    "type" : "construction",
+   "id": "c_take_pear_cutting",
    "description" : "Take Pear Tree Cutting",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -207,7 +207,7 @@
    "description" : "A large cutting from an pear tree.  It dies quickly, so hurry and pot it!",
    "material" : "veggy",
    "volume" : 6,
-   "weight" : 2721.5,
+   "weight" : 2721,
    "bashing" : 0,
    "cutting" : 0,
    "to_hit" : 0,
@@ -256,20 +256,14 @@
    "cutting" : 0,
    "to_hit" : 0,
    "phase": "solid",
-   "max_charges": 1,
-   "initial_charges": 1,
-   "charges_per_use": 1,
-   "turns_per_charge": 0,
-   "ammo": "NULL",
    "use_action": {
      "type": "delayed_transform",
-     "transform_age": 201600, "//": "2 weeks",
+     "transform_age": 1209600, "//": "2 weeks",
      "not_ready_msg": "The plant isn't done growing yet.",
      "msg": "You carefully take the tree out of the pot.",
      "moves": 50,
      "container": "clay_plant_pot",
-     "target": "pear_sapling",
-     "target_charges": 1
+     "target": "pear_sapling"
    }
 },{
   "type" : "recipe",
@@ -289,8 +283,9 @@
    "type" : "terrain",
    "id" : "t_tree_cherry_cut",
    "name": "cut cherry tree",
+   "description": "A cherry tree that has had a cutting taken from it",
    "symbol": "7",
-   "color": "ltgreen",
+   "color": "green",
    "move_cost": 0,
    "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED"],
    "harvest_season": "SUMMER",
@@ -308,6 +303,7 @@
    }
 },{
    "type" : "construction",
+   "id": "c_plant_cherry_tree",
    "description" : "Plant Cherry Tree",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -322,6 +318,7 @@
    "post_terrain" : "t_tree_cherry_harvested"
 },{
    "type" : "construction",
+   "id": "c_take_cherry_cutting",
    "description" : "Take Cherry Tree Cutting",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -339,7 +336,6 @@
    "name" : "cherry tree cutting",
    "name_plural" : "cherry tree cuttings",
    "spoils_in" : 24,
-   
    "nutrition" : 5,
    "comestible_type": "FOOD",
    "tool" : "null",
@@ -349,7 +345,7 @@
    "description" : "A large cutting from an cherry tree.  It dies quickly, so hurry and pot it!",
    "material" : "veggy",
    "volume" : 6,
-   "weight" : 2721.5,
+   "weight" : 2721,
    "bashing" : 0,
    "cutting" : 0,
    "to_hit" : 0,
@@ -398,20 +394,14 @@
    "cutting" : 0,
    "to_hit" : 0,
    "phase": "solid",
-   "max_charges": 1,
-   "initial_charges": 1,
-   "charges_per_use": 1,
-   "turns_per_charge": 0,
-   "ammo": "NULL",
    "use_action": {
      "type": "delayed_transform",
-     "transform_age": 201600, "//": "2 weeks",
+     "transform_age": 1209600, "//": "2 weeks",
      "not_ready_msg": "The plant isn't done growing yet.",
      "msg": "You carefully take the tree out of the pot.",
      "moves": 50,
      "container": "clay_plant_pot",
-     "target": "cherry_sapling",
-     "target_charges": 1
+     "target": "cherry_sapling" 
    }
 },{
   "type" : "recipe",
@@ -430,9 +420,10 @@
 },{
    "type" : "terrain",
    "id" : "t_tree_peach_cut",
+   "description": "A peach tree that has had a cutting taken from it",
    "name": "cut peach tree",
    "symbol": "7",
-   "color": "ltgreen",
+   "color": "green",
    "move_cost": 0,
    "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED"],
    "harvest_season": "SUMMER",
@@ -450,6 +441,7 @@
    }
 },{
    "type" : "construction",
+   "id": "c_plant_peach_tree",
    "description" : "Plant Peach Tree",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -464,6 +456,7 @@
    "post_terrain" : "t_tree_peach_harvested"
 },{
    "type" : "construction",
+   "id": "c_take_peach_cutting",
    "description" : "Take Peach Tree Cutting",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -490,7 +483,7 @@
    "description" : "A large cutting from an peach tree.  It dies quickly, so hurry and pot it!",
    "material" : "veggy",
    "volume" : 6,
-   "weight" : 2721.5,
+   "weight" : 2721,
    "bashing" : 0,
    "cutting" : 0,
    "to_hit" : 0,
@@ -539,20 +532,14 @@
    "cutting" : 0,
    "to_hit" : 0,
    "phase": "solid",
-   "max_charges": 1,
-   "initial_charges": 1,
-   "charges_per_use": 1,
-   "turns_per_charge": 0,
-   "ammo": "NULL",
    "use_action": {
      "type": "delayed_transform",
-     "transform_age": 201600, "//": "2 weeks",
+     "transform_age": 1209600, "//": "2 weeks",
      "not_ready_msg": "The plant isn't done growing yet.",
      "msg": "You carefully take the tree out of the pot.",
      "moves": 50,
      "container": "clay_plant_pot",
-     "target": "peach_sapling",
-     "target_charges": 1
+     "target": "peach_sapling"
    }
 },{
   "type" : "recipe",
@@ -572,8 +559,9 @@
    "type" : "terrain",
    "id" : "t_tree_apricot_cut",
    "name": "cut apricot tree",
+   "description": "An apricot tree that has had a cutting taken from it",
    "symbol": "7",
-   "color": "ltgreen",
+   "color": "green",
    "move_cost": 0,
    "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED"],
    "harvest_season": "SUMMER",
@@ -591,6 +579,7 @@
    }
 },{
    "type" : "construction",
+   "id": "c_plant_apricot_tree",
    "description" : "Plant Apricot Tree",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -605,6 +594,7 @@
    "post_terrain" : "t_tree_apricot_harvested"
 },{
    "type" : "construction",
+   "id": "c_take_apricot_cutting",
    "description" : "Take Apricot Tree Cutting",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -631,7 +621,7 @@
    "description" : "A large cutting from an apricot tree.  It dies quickly, so hurry and pot it!",
    "material" : "veggy",
    "volume" : 6,
-   "weight" : 2721.5,
+   "weight" : 2721,
    "bashing" : 0,
    "cutting" : 0,
    "to_hit" : 0,
@@ -680,20 +670,14 @@
    "cutting" : 0,
    "to_hit" : 0,
    "phase": "solid",
-   "max_charges": 1,
-   "initial_charges": 1,
-   "charges_per_use": 1,
-   "turns_per_charge": 0,
-   "ammo": "NULL",
    "use_action": {
      "type": "delayed_transform",
-     "transform_age": 201600, "//": "2 weeks",
+     "transform_age": 1209600, "//": "2 weeks",
      "not_ready_msg": "The plant isn't done growing yet.",
      "msg": "You carefully take the tree out of the pot.",
      "moves": 50,
      "container": "clay_plant_pot",
-     "target": "apricot_sapling",
-     "target_charges": 1
+     "target": "apricot_sapling"
    }
 },{
   "type" : "recipe",
@@ -712,9 +696,10 @@
 },{
    "type" : "terrain",
    "id" : "t_tree_plum_cut",
+   "description": "A plum tree that has had a cutting taken from it",
    "name": "cut plum tree",
    "symbol": "7",
-   "color": "ltgreen",
+   "color": "green",
    "move_cost": 0,
    "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED"],
    "harvest_season": "SUMMER",
@@ -732,6 +717,7 @@
    }
 },{
    "type" : "construction",
+   "id": "c_plant_plum_tree",
    "description" : "Plant Plum Tree",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -746,6 +732,7 @@
    "post_terrain" : "t_tree_plum_harvested"
 },{
    "type" : "construction",
+   "id": "c_take_plum_cutting",
    "description" : "Take Plum Tree Cutting",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -772,7 +759,7 @@
    "description" : "A large cutting from an plum tree.  It dies quickly, so hurry and pot it!",
    "material" : "veggy",
    "volume" : 6,
-   "weight" : 2721.5,
+   "weight" : 2721,
    "bashing" : 0,
    "cutting" : 0,
    "to_hit" : 0,
@@ -821,20 +808,14 @@
    "cutting" : 0,
    "to_hit" : 0,
    "phase": "solid",
-   "max_charges": 1,
-   "initial_charges": 1,
-   "charges_per_use": 1,
-   "turns_per_charge": 0,
-   "ammo": "NULL",
    "use_action": {
      "type": "delayed_transform",
-     "transform_age": 201600, "//": "2 weeks",
+     "transform_age": 1209600, "//": "2 weeks",
      "not_ready_msg": "The plant isn't done growing yet.",
      "msg": "You carefully take the tree out of the pot.",
      "moves": 50,
      "container": "clay_plant_pot",
-     "target": "plum_sapling",
-     "target_charges": 1
+     "target": "plum_sapling"
    }
 },{
   "type" : "recipe",
@@ -853,9 +834,10 @@
 },{
    "type" : "terrain",
    "id" : "t_tree_coffee_cut",
+   "description": "A coffee tree that has had a cutting taken from it",
    "name": "cut coffee tree",
    "symbol": "7",
-   "color": "ltgreen",
+   "color": "green",
    "move_cost": 0,
    "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "HARVESTED"],
    "examine_action": "harvested_plant",
@@ -872,6 +854,7 @@
    }
 },{
    "type" : "construction",
+   "id": "c_plant_coffee_tree",
    "description" : "Plant coffee Tree",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -886,6 +869,7 @@
    "post_terrain" : "t_tree_coffee_harvested"
 },{
    "type" : "construction",
+   "id": "c_take_coffee_cutting",
    "description" : "Take coffee Tree Cutting",
    "category" : "FARM_WOOD",
    "difficulty" : 0,
@@ -912,7 +896,7 @@
    "description" : "A large cutting from an coffee tree.  It dies quickly, so hurry and pot it!",
    "material" : "veggy",
    "volume" : 6,
-   "weight" : 2721.5,
+   "weight" : 2721,
    "bashing" : 0,
    "cutting" : 0,
    "to_hit" : 0,
@@ -961,20 +945,14 @@
    "cutting" : 0,
    "to_hit" : 0,
    "phase": "solid",
-   "max_charges": 1,
-   "initial_charges": 1,
-   "charges_per_use": 1,
-   "turns_per_charge": 0,
-   "ammo": "NULL",
    "use_action": {
      "type": "delayed_transform",
-     "transform_age": 201600, "//": "2 weeks",
+     "transform_age": 1209600, "//": "2 weeks",
      "not_ready_msg": "The plant isn't done growing yet.",
      "msg": "You carefully take the tree out of the pot.",
      "moves": 50,
      "container": "clay_plant_pot",
-     "target": "coffee_sapling",
-     "target_charges": 1
+     "target": "coffee_sapling" 
    }
 },{
   "type" : "recipe",
