@@ -4,6 +4,7 @@
 		"override": true,
 		"id": "t_tree_willow",
 		"name": "willow tree",
+		"description": "A willow tree",
 		"symbol": "4",
 		"color": [ "light_green", "light_green", "light_green", "brown" ],
 		"//": "barren in winter, harvestable all year round",
