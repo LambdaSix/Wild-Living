@@ -32,6 +32,7 @@
 	{
     "type": "terrain",
     "id": "t_tree_oak_harvested",
+    "description": "A harvested oak tree",
     "name": "oak tree",
     "symbol": "7",
     "color": [ "brown", "brown", "brown", "brown" ],
