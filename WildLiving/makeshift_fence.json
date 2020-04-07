@@ -1,6 +1,5 @@
 [
 {
- 
     "type" : "furniture",
     "id" : "f_makeshiftfence",
     "name": "makeshift fence",
@@ -8,6 +7,7 @@
     "move_cost_mod": 3,
     "required_str": -1,
     "symbol": "LINE_OXOX",
+    "description": "A makeshift fence",
     "color": "brown",
     "move_cost": 3,
     "flags": [
@@ -36,6 +36,7 @@
     }
 },{
     "type" : "construction",
+    "id": "c_makeshift_fence",
     "description" : "Build Makeshift Fence",
     "category" : "FURN",
     "difficulty" : 2,
