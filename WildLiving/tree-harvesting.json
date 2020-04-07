@@ -4,7 +4,7 @@
    "type" : "terrain",
    "id" : "t_tree_apple_cut",
    "name": "cut apple tree",
-   "description": "A apple tree that has had a sapling cut from it",
+   "description": "An apple tree that has had a sapling cut from it",
    "symbol": "7",
    "color": "green",
    "move_cost": 0,
