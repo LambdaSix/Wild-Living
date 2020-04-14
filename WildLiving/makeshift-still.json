@@ -1,4 +1,12 @@
 [
+    {
+    "id": "mound_distillation",
+    "type": "TOOL",
+    "copy-from": "fake_item",
+    "name": "primitive distillation",
+    "description": "Fake item - exists for primitive still",
+    "qualities": [ [ "DISTILL", 1 ] ]
+  },
   {
     "type": "furniture",
     "id": "f_primitive_still",

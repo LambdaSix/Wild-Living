@@ -1,4 +1,4 @@
-[
+    [
   {
     "type": "recipe",
     "result": "flour",
@@ -59,7 +59,7 @@
     "description": "Starch that's had the water decanted off & roasted to remove a lot of the water, you could grind this into a fine flour for use.",
     "color": "light_gray",
     "volume": "250 ml",
-    "spoils_in": "2 weeks",
+    "spoils_in": "14 days",
     "flags": [ "MILLABLE" ],
     "charges": 1
   },
