@@ -9,7 +9,7 @@
             [ { "id": "DIG", "level": 2 } ]
         ],
     "components" : [
-            [ [ "seed_veggy_wild", 1 ] ]
+            [ [ "seed_veggy_wild", 10 ] ]
         ],
     "pre_flags" : "DIGGABLE",
     "post_terrain" : "t_hedgerow"
