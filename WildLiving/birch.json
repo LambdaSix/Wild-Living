@@ -1,7 +1,7 @@
 [
   {
     "id": "birch_water_jug",
-    "type": "CONTAINER",
+    "type": "GENERIC",
     "category": "other",
     "name": "birch water jug",
     "description": "A carefully made birch bark water jug with a lid, it is sealed with pine pitch. It can hold 1.5 liters of water.",
@@ -14,9 +14,15 @@
     "material": "wood",
     "symbol": ")",
     "color": "brown",
-    "contains": 6,
-    "seals": true,
-    "watertight": true
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "3 kg",
+        "watertight": true,
+        "open_container": false
+      }
+    ]
   },
   {
     "id": "birch_funnel",

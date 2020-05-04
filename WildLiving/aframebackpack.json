@@ -15,7 +15,7 @@
     "encumbrance": 5,
     "rigid": false,
     "max_encumbrance": 15,
-    "storage": "12L",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "12L", "max_contains_weight": "24 kg" } ],
     "warmth": 0,
     "material_thickness": 1
   },
@@ -44,7 +44,7 @@
     "covers": [ "TORSO" ],
     "coverage": 10,
     "encumbrance": 15,
-    "storage": "12L",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "12L", "max_contains_weight": "24 kg" } ],
     "warmth": 0,
     "material_thickness": 1
   },
@@ -74,7 +74,6 @@
     "covers": [ "TORSO" ],
     "coverage": 20,
     "encumbrance": 12,
-    "storage": 0,
     "warmth": 0,
     "material_thickness": 1
   },
@@ -104,19 +103,20 @@
     "covers": [ "TORSO" ],
     "coverage": 20,
     "encumbrance": 6,
-    "storage": "12L",
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "12L", "max_contains_weight": "24 kg" },
+      {
+        "pocket_type": "CONTAINER",
+        "min_item_volume": "250 ml",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "6 kg",
+        "moves": 200,
+        "holster": true,
+        "flag_restriction": [ "BELT_CLIP" ]
+      }
+    ],
     "warmth": 0,
     "material_thickness": 1,
-    "use_action": {
-      "type": "holster",
-      "holster_prompt": "Attach what to backpack loop?",
-      "holster_msg": "You attach your %s to your %s",
-      "multi": 3,
-      "min_volume": "250ml",
-      "max_volume": "3L",
-      "draw_cost": 200,
-      "flags": [ "BELT_CLIP" ]
-    },
     "flags": [ "BELTED" ]
   },
   {
@@ -145,19 +145,20 @@
     "covers": [ "TORSO" ],
     "coverage": 20,
     "encumbrance": 6,
-    "storage": "12L",
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "12L", "max_contains_weight": "24 kg" },
+      {
+        "pocket_type": "CONTAINER",
+        "min_item_volume": "250 ml",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "6 kg",
+        "moves": 200,
+        "holster": true,
+        "flag_restriction": [ "BELT_CLIP" ]
+      }
+    ],
     "warmth": 0,
     "material_thickness": 1,
-    "use_action": {
-      "type": "holster",
-      "holster_prompt": "Attach what to backpack loop?",
-      "holster_msg": "You attach your %s to your %s",
-      "multi": 3,
-      "min_volume": "250ml",
-      "max_volume": "3L",
-      "draw_cost": 200,
-      "flags": [ "BELT_CLIP" ]
-    },
     "flags": [ "BELTED" ]
   },
   {
