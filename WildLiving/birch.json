@@ -61,6 +61,7 @@
 	  "skill_used": "survival",
 	  "difficulty": 2,
     "time": "30 minutes",
+    "time": "30 minutes",
   	"autolearn": true,
   	"components": [
     	[ [ "birchbark", 4 ] ],
