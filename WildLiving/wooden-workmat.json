@@ -42,7 +42,7 @@
     "subcategory": "CSC_OTHER_OTHER",
     "skill_used": "survival",
     "difficulty": 3,
-    "time": 10000,
+    "time": "10 minutes",
     "reversible": true,
     "autolearn": true,
     "components": [ 
