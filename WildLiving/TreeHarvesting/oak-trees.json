@@ -20,7 +20,7 @@
   },
   {
     "type": "terrain",
-    "copy-from": "t_tree_oak",
+    "copy-from": "t_tree",
     "id": "t_sapling_oak_young",
     "looks-like": "t_tree_sapling",
     "description": "A massive deciduous tree belonging to the 'Quercus' genus, commonly found throughout New England region. This is a young sapling and will take at least a year to grow to something useful.",
@@ -42,7 +42,7 @@
   },
   {
     "type": "terrain",
-    "copy-from": "t_tree_oak",
+    "copy-from": "t_tree",
     "id": "t_sapling_oak_young",
     "looks-like": "t_tree_oak",
     "description": "A massive deciduous tree belonging to the 'Quercus' genus, commonly found throughout New England region. This is a maturing sapling, needs at least another season to continue growing.",
@@ -70,7 +70,7 @@
     "difficulty": 0,
     "time": "30 minutes",
     "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
-    "components": [ [ [ "oak_sapling", 1 ] ], [ [ "material_dirt", 10 ] ] ],
+    "components": [ [ [ "oak_sapling", 1 ] ], [ [ "material_soil", 10 ] ] ],
     "pre_terrain": "t_pit_shallow",
     "post_terrain": "t_sapling_oak_young"
   },
@@ -82,7 +82,7 @@
     "difficulty": 0,
     "time": "10 minutes",
     "qualities": [ [ { "id": "CUT", "level": 1 } ] ],
-    "pre_terrain": "t_tree_oak",
+    "pre_terrain": "t_tree",
     "post_terrain": "t_tree_oak_cut"
   },
   {
