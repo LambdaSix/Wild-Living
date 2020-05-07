@@ -5,9 +5,9 @@
     "comestible_type": "FOOD",
     "name": "tea bag",
     "material": "cotton",
-    "weight": 10,
+    "weight": "10 g",
     "symbol": "~",
-    "spoils_in": 8760,
+    "spoils_in": "360 days",
     "color": "brown"
   },
 	{
@@ -22,7 +22,7 @@
     "nutrition": 1,
     "price": 190,
     "material": "veggy",
-    "volume": 1,
+    "volume": "250 ml",
     "stack_size": 4,
     "fun": -1
   },
@@ -38,7 +38,7 @@
     "nutrition": 1,
     "price": 190,
     "material": "veggy",
-    "volume": 1,
+    "volume": "250 ml",
     "stack_size": 4,
     "fun": -1
   },
@@ -54,7 +54,7 @@
     "nutrition": 1,
     "price": 190,
     "material": "veggy",
-    "volume": 1,
+    "volume": "250 ml",
     "stack_size": 4,
     "fun": -1
   },
@@ -79,7 +79,7 @@
     "nutrition": 1,
     "price": 190,
     "material": "veggy",
-    "volume": 1,
+    "volume": "250 ml",
     "stack_size": 4,
     "fun": -1
   },
@@ -95,7 +95,7 @@
     "nutrition": 1,
     "price": 190,
     "material": "veggy",
-    "volume": 1,
+    "volume": "250 ml",
     "stack_size": 4,
     "fun": -1
   },
@@ -111,7 +111,7 @@
     "nutrition": 1,
     "price": 190,
     "material": "veggy",
-    "volume": 1,
+    "volume": "250 ml",
     "stack_size": 4,
     "fun": -1
   },
