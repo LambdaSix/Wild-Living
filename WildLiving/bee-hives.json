@@ -1,0 +1,206 @@
+[
+  {
+    "id": "beehive_frame",
+    "looks_like": "beehive_empty",
+    "type": "GENERIC",
+    "name": "beehive frame",
+    "description": "A large traditional beehive frame, the frame comes apart into layers for easier access to the honey inside, now you just need some bees to move in.",
+    "weight": "50000 g",
+    "volume": "50 L",
+    "price": 5200,
+    "material": [ "wood" ],
+    "symbol": "-",
+    "color": "brown"
+  },
+  {
+    "type": "recipe",
+    "result": "beehive_frame",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "survival", 4 ],
+    "time": "35 m",
+    "autolearn": true,
+    "book_learn": [ [ "textbook_fabrication", 4 ], [ "survival_book", 4 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_W", "level": 1 } ],
+    "using": [ [ "sewing_standard", 20 ] ],
+    "components": [ [ [ "2x4", 15 ], [ "paper", 24 ] ], [ [ "nail", 20 ] ], [ [ "rag", 10 ] ] ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_beehive_unoccupied",
+    "looks_like": "t_hive_young",
+    "name": "unoccupied beehive",
+    "description": "A simple beehive frame, it's been baited with something sweet.  Hopefully it'll attract some normal sized bees.",
+    "symbol": "^",
+    "color": "light_gray",
+    "move_cost": 0,
+    "transforms_into": "t_beehive_occupied_growing",
+    "deconstruct": { "ter_set": "t_dirt", "items": [ { "item": "beehive_frame", "count": 1 } ] },
+    "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED" ],
+    "bash": {
+      "str_min": 12,
+      "str_max": 50,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "2x4", "count": [ 1, 4 ] },
+        { "item": "nail", "charges": [ 4, 8 ] },
+        { "item": "splinter", "count": [ 2, 6 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_beehive_occupied_growing",
+    "looks_like": "t_hive_young",
+    "name": "fledgling beehive",
+    "description": "A simple beehive frame, you spot a few bees buzzing around.  They seem to have taken an interest in the hive, maybe they'll stay.",
+    "symbol": "^",
+    "color": "light_gray",
+    "move_cost": 0,
+    "transforms_into": "t_beehive_occupied_ready",
+    "deconstruct": { "ter_set": "t_dirt", "items": [ { "item": "beehive_frame", "count": 1 } ] },
+    "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED" ],
+    "bash": {
+      "str_min": 12,
+      "str_max": 50,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "2x4", "count": [ 1, 4 ] },
+        { "item": "nail", "charges": [ 4, 8 ] },
+        { "item": "splinter", "count": [ 2, 6 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_beehive_occupied_ready",
+    "looks_like": "t_hive_ready",
+    "name": "mature beehive",
+    "description": "A simple beehive frame, it's buzzing with activity.  They seem to be doing well enough that you could harvest some honeycombs from them without damaging the colony.",
+    "symbol": "^",
+    "color": "yellow",
+    "move_cost": 0,
+    "transforms_into": "t_beehive_occupied_recovering",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "//": "Tweak these values and multipliers..",
+        "entries": [ { "drop": "honeycomb", "base_num": [ 4, 8 ], "scaled_num": [ 0.1, 0.6 ] } ]
+      }
+    ],
+    "deconstruct": {
+      "ter_set": "t_dirt",
+      "items": [ { "item": "beehive_frame", "count": 1 }, { "item": "honeycomb", "count": [ 1, 6 ] } ]
+    },
+    "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT" ],
+    "bash": {
+      "str_min": 12,
+      "str_max": 50,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "honeycomb", "count": [ 0, 3 ] },
+        { "item": "2x4", "count": [ 1, 4 ] },
+        { "item": "nail", "charges": [ 4, 8 ] },
+        { "item": "splinter", "count": [ 2, 6 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_beehive_occupied_recovering",
+    "looks_like": "t_hive_recovering",
+    "name": "mature beehive",
+    "description": "A simple beehive frame, it's buzzing with activity.  The hive is doing well but there doesn't seem to be any spare honeycombs, maybe you should let them replenish their stocks.",
+    "symbol": "^",
+    "color": "brown",
+    "move_cost": 0,
+    "transforms_into": "t_beehive_occupied_regrowing",
+    "deconstruct": {
+      "ter_set": "t_dirt",
+      "items": [ { "item": "beehive_frame", "count": 1 }, { "item": "honeycomb", "count": [ 0, 1 ] } ]
+    },
+    "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED" ],
+    "bash": {
+      "str_min": 12,
+      "str_max": 50,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "honeycomb", "count": [ 0, 1 ] },
+        { "item": "2x4", "count": [ 3, 15 ] },
+        { "item": "nail", "charges": [ 15, 20 ] },
+        { "item": "splinter", "count": [ 2, 6 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_beehive_occupied_regrowing",
+    "looks_like": "t_hive_regrowing",
+    "name": "established beehive",
+    "description": "A simole beehive frame, it's buzzing with activity.  The hive is busy rebuilding honeycombs and stocks of honey, maybe give them some more time.",
+    "symbol": "^",
+    "color": "brown",
+    "move_cost": 0,
+    "transforms_into": "t_beehive_occupied_ready",
+    "deconstruct": {
+      "ter_set": "t_dirt",
+      "items": [ { "item": "beehive_frame", "count": 1 }, { "item": "honeycomb", "count": [ 0, 3 ] } ]
+    },
+    "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED" ],
+    "bash": {
+      "str_min": 12,
+      "str_max": 50,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "honeycomb", "count": [ 0, 3 ] },
+        { "item": "2x4", "count": [ 3, 15 ] },
+        { "item": "nail", "charges": [ 15, 20 ] },
+        { "item": "splinter", "count": [ 2, 6 ] }
+      ]
+    }
+  },
+  {
+    "type": "construction",
+    "id": "c_beehive_frame",
+    "description": "Place Beehive Frame",
+    "category": "FURN",
+    "required_skills": [ [ "survival", 4 ], [ "fabrication", 3 ] ],
+    "time": "25 m",
+    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
+    "//": "Sweet things to entice the bees in",
+    "components": [
+      [ [ "beehive_frame", 1 ] ],
+      [ [ "sweet_water", 1 ], [ "honey_bottled", 3 ], [ "honey_glassed", 3 ], [ "syrup", 3 ], [ "beet_syrup", 5 ] ]
+    ],
+    "pre_flags": "DIGGABLE",
+    "post_terrain": "t_beehive_unoccupied"
+  },
+  {
+    "result": "honey_bottled",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CC_FOOD_OTHER",
+    "byproducts": [ [ "wax", 3 ] ],
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "20 minutes",
+    "batch_time_factors": [ 83, 1 ],
+    "autolearn": true,
+    "tools": [ [ [ "surface_heat", 40, "LIST" ] ], [ [ "rag", -1 ] ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "honeycomb", 2 ] ] ]
+  }
+]
