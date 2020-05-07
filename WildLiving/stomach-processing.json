@@ -31,7 +31,7 @@
   	"type": "COMESTIBLE",
   	"copy-from": "stomach",
   	"name": "cleaned stomach",
-  	"spoils_in": 94,
+  	"spoils_in": "4 days",
   	"description": "The cleaned stomach of a woodland creature.",
   	"proportional": { "price": 1.5, "calories": 1.0 }
   },
@@ -40,7 +40,7 @@
   	"type": "COMESTIBLE",
   	"copy-from": "stomach_large",
   	"name": "cleaned large stomach",
-  	"spoils_in": 94,
+  	"spoils_in": "4 days",
   	"description": "The cleaned stomach of a large woodland creature.",
   	"proportional": { "price": 1.5, "calories": 1.0 }
   },
@@ -53,7 +53,7 @@
   	"weight": "1000g",
     "volume": "20L",
     "price": 200,
-    "spoils_in": 94,
+    "spoils_in": "4 days",
     "calories": 0,
     "quench": 0,
     "healthy": -1,
