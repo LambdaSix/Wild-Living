@@ -3,7 +3,7 @@
     "type": "terrain",
     "id": "t_tree_apricot_cut",
     "name": "cut apricot tree",
-    "description": "A transplanted species of 'Prunus armeniaca', rarely found in New England.  It produces apricots in the summer.  If you examined the spurs more closely, you could probably find some mature apricots.  You could also cut it down with the right tools, this one has had a cutting taken from it, and will take an extra season to recover.",
+    "description": "A transplanted species of 'Prunus armeniaca', rarely found in New England.  It produces apricots in the summer.  You could also cut it down with the right tools, this one has had a cutting taken from it, and will take an extra season to recover.",
     "symbol": "7",
     "color": "green",
     "move_cost": 0,
