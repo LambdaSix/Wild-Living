@@ -13,6 +13,7 @@
     "covers": [ "TORSO" ],
     "coverage": 15,
     "encumbrance": 5,
+    "rigid": false,
     "max_encumbrance": 15,
     "storage": "12L",
     "warmth": 0,
