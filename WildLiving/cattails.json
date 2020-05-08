@@ -11,8 +11,7 @@
     "time": "20 minutes",
     "batch_time_factors": [ 83, 1 ],
     "autolearn": true,
-    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "GRINDING", "level": 2 } ],
     "components": [ [ [ "starch_dried_flakes", 1 ] ] ],
     "charges": 15
   },
