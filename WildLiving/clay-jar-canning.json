@@ -100,8 +100,7 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ] ] ],
     "byproducts": [ [ "water_clean", 80 ] ],
-    "components": [
-      [ [ "water", 81 ], [ "water_clean", 81 ] ], [ [ "jar_clay_canning_small", 1 ] ], [ [ "meat_red_raw", 2, "LIST" ] ] ]
+    "components": [ [ [ "water", 81 ], [ "water_clean", 81 ] ], [ [ "jar_clay_canning_small", 1 ] ], [ [ "meat_red_raw", 2, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -121,8 +120,7 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ] ] ],
     "byproducts": [ [ "water_clean", 80 ] ],
-    "components": [
-      [ [ "water", 81 ], [ "water_clean", 81 ] ], [ [ "jar_clay_canning_small", 1 ] ], [ [ "fish", 2 ] ] ]
+    "components": [ [ [ "water", 81 ], [ "water_clean", 81 ] ], [ [ "jar_clay_canning_small", 1 ] ], [ [ "fish", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -215,8 +213,7 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ] ] ],
     "byproducts": [ [ "water_clean", 80 ] ],
-    "components": [
-      [ [ "water", 82 ], [ "water_clean", 82 ] ], [ [ "jar_clay_canning_large", 1 ] ], [ [ "meat_red_raw", 8, "LIST" ] ] ]
+    "components": [ [ [ "water", 82 ], [ "water_clean", 82 ] ], [ [ "jar_clay_canning_large", 1 ] ], [ [ "meat_red_raw", 8, "LIST" ] ] ]
   },
   {
     "type": "recipe",
