@@ -1,5 +1,37 @@
 [
   {
+    "id": "pot_canning_clay",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "clay canning pot" },
+    "description": "A very large 25 liter pot made from clay, primarily meant for canning food in jars via the water bath method, though it can cook normal foods just as well.  Canning foods with it will require a lot of water.  If you're only canning a couple of jars at a time, you'd fill it up with rocks or something to displace the water above the lids.",
+    "weight": "8625 g",
+    "volume": "25 L",
+    "price": 20000,
+    "to_hit": -2,
+    "bashing": 10,
+    "material": "clay",
+    "symbol": ")",
+    "color": "dark_gray",
+    "container_data": { "contains": "25 L", "watertight": true },
+    "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
+    "use_action": "HEAT_FOOD",
+    "flags": [ "ALLOWS_REMOTE_USE" ]
+  },
+  {
+    "type": "recipe",
+    "result": "pot_canning_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "skills_required": [ "survival", 1 ],
+    "difficulty": 4,
+    "time": "90 m",
+    "autolearn": true,
+    "using": [ [ "cordage_short", 4 ], [ "glazing", 10 ], [ "earthenware_firing", 160 ] ],
+    "components": [ [ [ "water", 4 ], [ "water_clean", 4 ] ], [ [ "clay_lump", 15 ] ], [ [ "cordage_short", 2, "LIST" ] ] ]
+  },
+  {
     "id": "jar_clay_canning_small",
     "type": "CONTAINER",
     "category": "other",
