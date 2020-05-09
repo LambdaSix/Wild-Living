@@ -1,0 +1,75 @@
+[
+  {
+    "id": "mortar_pestle",
+    "type": "TOOL",
+    "name": { "str": "mortar and pestle", "str_pl": "mortars and pestles" },
+    "description": "This is a simple combination of a small grindstone and a bowl-shaped stone.  Used for grinding grain, but time-consuming compared to more complex methods.",
+    "weight": "1632 g",
+    "volume": "1 L",
+    "price": 0,
+    "price_postapoc": 10,
+    "to_hit": -4,
+    "bashing": 3,
+    "material": "stone",
+    "symbol": ":",
+    "color": "light_gray",
+    "qualities": [ [ "CONTAIN", 1 ], [ "GRINDING", 1 ] ]
+  },
+  {
+    "id": "clay_quern",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "clay quern" },
+    "description": "This is a simple hand-powered clay quern for grinding grain.",
+    "weight": "2264 g",
+    "volume": "1500 ml",
+    "price": 3000,
+    "price_postapoc": 10,
+    "material": "clay",
+    "symbol": ":",
+    "qualities": [ [ "GRINDING", 2 ] ],
+    "color": "brown"
+  },
+  {
+    "id": "rock_quern",
+    "type": "TOOL",
+    "name": { "str": "quern" },
+    "description": "This is a simple hand-powered stone quern for grinding grain.",
+    "weight": "3264 g",
+    "volume": "2 L",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -4,
+    "bashing": 5,
+    "material": "stone",
+    "symbol": ":",
+    "qualities": [ [ "GRINDING", 2 ] ],
+    "color": "light_gray"
+  },
+  {
+    "id": "food_processor",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "food processor" },
+    "description": "This is a kitchen appliance capable of slicing, chopping, shredding, grinding, pureeing and mixing.",
+    "weight": "3000 g",
+    "volume": "2 L",
+    "price": 50,
+    "price_postapoc": 250,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [ "iron" ],
+    "symbol": "%",
+    "color": "white",
+    "ammo": "battery",
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "qualities": [ [ "GRINDING", 3 ] ],
+    "magazines": [
+      [
+        "battery",
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      ]
+    ],
+    "magazine_well": 2
+  }
+]

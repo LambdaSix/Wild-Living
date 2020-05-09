@@ -53,7 +53,7 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
     "flags": [ "BLIND_EASY" ],
-    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
+    "qualities": [ { "id": "GRINDING", "level": 2 } ],
     "components": [ [ [ "acorns_cooked", 2 ] ] ]
   },
   {
@@ -67,7 +67,7 @@
     "time": "10 minutes",
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
-    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "qualities": [ { "id": "GRINDING", "level": 3 } ],
     "components": [ [ [ "acorns_cooked", 2 ] ] ]
   },
   {
@@ -81,7 +81,7 @@
     "time": "30 minutes",
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
-    "tools": [ [ [ "mortar_pestle", -1 ] ] ],
+    "qualities": [ { "id": "GRINDING", "level": 1 } ],
     "components": [ [ [ "acorns_cooked", 2 ] ] ]
   }
 ]
