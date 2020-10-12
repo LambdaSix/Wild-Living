@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_juniper_tree",
-    "description": "Plant Juniper Tree",
+    "group": "plant_juniper_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_juniper_cutting",
-    "description": "Take Juniper Tree Cutting",
+    "group": "cutting_juniper_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_juniper_cutting_harvested",
-    "description": "Take Juniper Tree Cutting",
+    "group": "cutting_juniper_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

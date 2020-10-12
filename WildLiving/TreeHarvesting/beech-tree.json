@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_beech_tree",
-    "description": "Plant Beech Tree",
+    "group": "plant_beech_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_beech_cutting",
-    "description": "Take Beech Tree Cutting",
+    "group": "cutting_beech_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_beech_cutting_harvested",
-    "description": "Take Beech Tree Cutting",
+    "group": "cutting_beech_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

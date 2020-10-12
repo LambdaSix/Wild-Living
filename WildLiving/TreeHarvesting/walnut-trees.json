@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_walnut_tree",
-    "description": "Plant walnut Tree",
+    "group": "plant_walnut_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_walnut_cutting",
-    "description": "Take Walnut Tree Cutting",
+    "group": "cutting_walnut_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_walnut_cutting_harvested",
-    "description": "Take Walnut Tree Cutting",
+    "group": "cutting_walnut_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

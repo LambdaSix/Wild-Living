@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_pear_tree",
-    "description": "Plant Pear Tree",
+    "group": "plant_pear_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_pear_cutting",
-    "description": "Take Pear Tree Cutting",
+    "group": "cutting_pear_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_pear_cutting_harvested",
-    "description": "Take Pear Tree Cutting",
+    "group": "cutting_pear_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
