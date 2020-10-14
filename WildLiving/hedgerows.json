@@ -3,7 +3,6 @@
     "type": "construction",
     "id": "c_plant_hedgerow",
     "group": "plant_hedgerow",
-    "description": "Plant hedgerow",
     "category": "FARM_WOOD",
     "difficulty": 2,
     "time": 10,
