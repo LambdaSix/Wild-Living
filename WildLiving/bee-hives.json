@@ -175,7 +175,7 @@
   {
     "type": "construction",
     "id": "c_beehive_frame",
-	"group": "beehive_frame",
+    "group": "beehive_frame",
     "category": "FURN",
     "required_skills": [ [ "survival", 4 ], [ "fabrication", 3 ] ],
     "time": "25 m",
