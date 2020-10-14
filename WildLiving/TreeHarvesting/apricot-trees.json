@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_apricot_tree",
-    "description": "Plant Apricot Tree",
+    "group": "plant_apricot_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_apricot_cutting",
-    "description": "Take Apricot Tree Cutting",
+    "group": "cutting_apricot_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_apricot_cutting_harvested",
-    "description": "Take Apricot Tree Cutting",
+    "group": "cutting_apricot_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

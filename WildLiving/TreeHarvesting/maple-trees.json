@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_maple_tree",
-    "description": "Plant maple Tree",
+    "group": "plant_maple_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_maple_cutting",
-    "description": "Take Maple Tree Cutting",
+    "group": "cutting_maple_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

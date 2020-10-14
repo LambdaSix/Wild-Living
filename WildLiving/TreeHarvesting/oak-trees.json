@@ -67,7 +67,7 @@
   {
     "type": "construction",
     "id": "c_plant_oak_tree",
-    "description": "Plant Oak Tree",
+    "group": "plant_oak_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -79,7 +79,7 @@
   {
     "type": "construction",
     "id": "c_take_oak_cutting",
-    "description": "Take Oak Tree Cutting",
+    "group": "cutting_oak_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -90,7 +90,7 @@
   {
     "type": "construction",
     "id": "c_take_oak_cutting_harvested",
-    "description": "Take Oak Tree Cutting",
+    "group": "cutting_oak_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

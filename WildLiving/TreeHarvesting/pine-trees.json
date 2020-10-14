@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_pine_tree",
-    "description": "Plant Pine Tree",
+    "group": "plant_pine_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_pine_cutting",
-    "description": "Take Pine Tree Cutting",
+    "group": "cutting_pine_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_pine_cutting_harvested",
-    "description": "Take Pine Tree Cutting",
+    "group": "cutting_pine_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

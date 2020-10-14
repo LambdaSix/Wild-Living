@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_peach_tree",
-    "description": "Plant Peach Tree",
+    "group": "plant_peach_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_peach_cutting",
-    "description": "Take Peach Tree Cutting",
+    "group": "cutting_peach_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_peach_cutting_harvested",
-    "description": "Take peach Tree Cutting",
+    "group": "cutting_peach_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

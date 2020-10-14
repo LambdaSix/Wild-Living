@@ -1,0 +1,202 @@
+[
+  {
+    "type": "construction_group",
+    "id": "plant_almond_tree",
+    "name": "Plant Almond Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_almond_tree",
+    "name": "Take Almond Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_apple_tree",
+    "name": "Plant Apple Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_apple_tree",
+    "name": "Take Apple Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_apricot_tree",
+    "name": "Plant Apricot Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_apricot_tree",
+    "name": "Take Apricot Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_beech_tree",
+    "name": "Plant Beech Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_beech_tree",
+    "name": "Take Beech Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_birch_tree",
+    "name": "Plant Birch Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_birch_tree",
+    "name": "Take Birch Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_cherry_tree",
+    "name": "Plant Cherry Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_cherry_tree",
+    "name": "Take Cherry Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_chestnut_tree",
+    "name": "Plant Chestnut Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_chestnut_tree",
+    "name": "Take Chestnut Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_coffee_tree",
+    "name": "Plant Coffee Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_coffee_tree",
+    "name": "Take Coffee Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_hazelnut_tree",
+    "name": "Plant Hazelnut Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_hazelnut_tree",
+    "name": "Take Hazelnut Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_hickory_tree",
+    "name": "Plant Hickory Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_hickory_tree",
+    "name": "Take Hickory Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_juniper_tree",
+    "name": "Plant Juniper Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_juniper_tree",
+    "name": "Take Juniper Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_maple_tree",
+    "name": "Plant Maple Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_maple_tree",
+    "name": "Take Maple Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_oak_tree",
+    "name": "Plant Oak Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_oak_tree",
+    "name": "Take Oak Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_peach_tree",
+    "name": "Plant Peach Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_peach_tree",
+    "name": "Take Peach Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_pear_tree",
+    "name": "Plant Pear Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_pear_tree",
+    "name": "Take Pear Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_pecan_tree",
+    "name": "Plant Pecan Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_pecan_tree",
+    "name": "Take Pecan Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_pine_tree",
+    "name": "Plant Pine Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_pine_tree",
+    "name": "Take Pine Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_pistachio_tree",
+    "name": "Plant Pistachio Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_pistachio_tree",
+    "name": "Take Pistachio Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_plum_tree",
+    "name": "Plant Plum Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_plum_tree",
+    "name": "Take Plum Tree Cutting"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_walnut_tree",
+    "name": "Plant Walnut Tree"
+  },
+  {
+    "type": "construction_group",
+    "id": "cutting_walnut_tree",
+    "name": "Take Walnut Tree Cutting"
+  }
+]

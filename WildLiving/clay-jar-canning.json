@@ -33,8 +33,8 @@
   },
   {
     "id": "jar_clay_canning_small",
-    "type": "CONTAINER",
-    "category": "other",
+    "type": "GENERIC",
+    "category": "container",
     "name": "small clay canning jar",
     "description": "A half-litre clay jar, glazed for waterproofing with a tight-fitting wooden stopper.",
     "weight": "150 g",
@@ -51,8 +51,8 @@
   },
   {
     "id": "jar_clay_canning_large",
-    "type": "CONTAINER",
-    "category": "other",
+    "type": "GENERIC",
+    "category": "container",
     "name": "large clay canning jar",
     "description": "A two-litre clay jar, glazed for waterproofing with a tight-fitting wooden stopper.",
     "weight": "450 g",
@@ -70,7 +70,8 @@
   {
     "id": "jar_clay_sealed_small",
     "copy-from": "jar_clay_canning_small",
-    "type": "CONTAINER",
+    "type": "GENERIC",
+    "category": "container",
     "name": "sealed small clay jar",
     "description": "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper.  Sealed tightly with wax, to preserve contents from rot.",
     "symbol": ")",
@@ -82,7 +83,8 @@
   {
     "id": "jar_clay_sealed_large",
     "copy-from": "jar_clay_canning_large",
-    "type": "CONTAINER",
+    "type": "GENERIC",
+    "category": "container",
     "name": "sealed large clay jar",
     "description": "A two-litre clay jar, glazed for waterproofing with a tight-fitting wooden stopper.  Sealed tightly with wax, to preserve contents from rot.",
     "symbol": ")",

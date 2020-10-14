@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_plum_tree",
-    "description": "Plant Plum Tree",
+    "group": "plant_plum_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_plum_cutting",
-    "description": "Take Plum Tree Cutting",
+    "group": "cutting_plum_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_plum_cutting_harvested",
-    "description": "Take Plum Tree Cutting",
+    "group": "cutting_plum_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

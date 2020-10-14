@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_chestnut_tree",
-    "description": "Plant Chestnut Tree",
+    "group": "plant_chestnut_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_chestnut_cutting",
-    "description": "Take Chestnut Tree Cutting",
+    "group": "cutting_chestnut_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_chestnut_cutting_harvested",
-    "description": "Take Chestnut Tree Cutting",
+    "group": "cutting_chestnut_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
