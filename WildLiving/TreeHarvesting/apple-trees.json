@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_apple_tree",
-    "description": "Plant Apple Tree",
+    "group": "plant_apple_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_apple_cutting",
-    "description": "Take Apple Tree Cutting",
+    "group": "cutting_apple_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_apple_cutting_harvested",
-    "description": "Take Apple Tree Cutting",
+    "group": "cutting_apple_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

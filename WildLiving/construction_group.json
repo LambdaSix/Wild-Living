@@ -1,0 +1,27 @@
+[
+  {
+    "type": "construction_group",
+    "id": "beehive_frame",
+    "name": "Place Beehive Frame"
+  },
+  {
+    "type": "construction_group",
+    "id": "plant_hedgerow",
+    "name": "Plant Hedgerow"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_primitive_still",
+    "name": "Build Makeshift Still"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_makeshift_fence",
+    "name": "Build Makeshift Fence"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_woven_fence",
+    "name": "Build Woven Fence"
+  }
+]

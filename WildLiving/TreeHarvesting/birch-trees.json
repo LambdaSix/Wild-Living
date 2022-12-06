@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_birch_tree",
-    "description": "Plant Birch Tree",
+    "group": "plant_birch_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_birch_cutting",
-    "description": "Take Birch Tree Cutting",
+    "group": "cutting_birch_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_birch_cutting_harvested",
-    "description": "Take Birch Tree Cutting",
+    "group": "cutting_birch_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",

@@ -65,7 +65,7 @@
   {
     "type": "construction",
     "id": "c_plant_pecan_tree",
-    "description": "Plant Pecan Tree",
+    "group": "plant_pecan_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "30 minutes",
@@ -77,7 +77,7 @@
   {
     "type": "construction",
     "id": "c_take_pecan_cutting",
-    "description": "Take Pecan Tree Cutting",
+    "group": "cutting_pecan_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
@@ -88,7 +88,7 @@
   {
     "type": "construction",
     "id": "c_take_pecan_cutting_harvested",
-    "description": "Take Pecan Tree Cutting",
+    "group": "cutting_pecan_tree",
     "category": "FARM_WOOD",
     "difficulty": 0,
     "time": "10 minutes",
